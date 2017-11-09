@@ -1,0 +1,201 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickCounters.net", "QuickCounters.net\QuickCounters.net.csproj", "{7865FB26-07F8-41E5-9A98-5B0BFB352828}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickCountersUnitTest", "QuickCountersUnitTest\QuickCountersUnitTest.csproj", "{4334343F-D0B4-44A9-87D9-D9D6AA350787}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B62FD472-BBF3-4797-8EF0-DC42C4B2D2B3}"
+	ProjectSection(SolutionItems) = preProject
+		package.build = package.build
+		Documentation\QuickCounterDocumentation.doc = Documentation\QuickCounterDocumentation.doc
+		VersionInfo.cs = VersionInfo.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickCounterView", "QuickCounterView\QuickCounterView.csproj", "{E207B2E0-A6B8-4D74-8574-40D099B2534B}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "QuickCountersSetup", "QuickCountersSetup\QuickCountersSetup.vdproj", "{6330E070-0A33-45A7-8D4A-ED3383C1A074}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WCFSupport", "WCFSupport", "{4FB16BBD-4ED1-48DF-9122-73E91E518267}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QCFromWsdl", "WCFSupport\QCFromWsdl\QCFromWsdl.csproj", "{EE693BD7-3C5E-4DD2-8533-08F7B3A086C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickCounters.Wcf", "WCFSupport\QuickCounters.Wcf\QuickCounters.Wcf.csproj", "{B1B0C9BA-A499-4638-9D2A-1E1F0AD28519}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickCounters.Wcf.UnitTest", "WCFSupport\QuickCounters.Wcf.UnitTest\QuickCounters.Wcf.UnitTest.csproj", "{25CFC4BE-774A-4ABB-90E8-95D9345C1B79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BizTalkSupport", "BizTalkSupport", "{6C4EDDD6-3E16-456D-B094-51607B8027D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickCounters.BizTalk", "BizTalkSupport\QuickCounters.BizTalk\QuickCounters.BizTalk.csproj", "{2AD1A115-2482-4192-8279-A0420FB67388}"
+EndProject
+Project("{EF7E3281-CD33-11D4-8326-00C04FA0CE8D}") = "BizTalkWithQuickCountersSample", "BizTalkSupport\BizTalkWithQuickCountersSample\BizTalkWithQuickCountersSample.btproj", "{E4A96C6F-B66D-4101-BB9D-D4CC35A68B46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{29CD09CD-96AC-4291-8F4D-A9433EE4C02E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QCConsoleApp", "Samples\QCConsoleApp\QCConsoleApp.csproj", "{2C5FDC2F-B431-42FA-A661-93BC02D945B0}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs01.codeplex.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = QuickCounters.net\\QuickCounters.net.csproj
+		SccProjectName1 = QuickCounters.net
+		SccLocalPath1 = QuickCounters.net
+		SccProjectUniqueName2 = QuickCountersSetup\\QuickCountersSetup.vdproj
+		SccProjectName2 = QuickCountersSetup
+		SccLocalPath2 = QuickCountersSetup
+		SccProjectUniqueName3 = QuickCountersUnitTest\\QuickCountersUnitTest.csproj
+		SccProjectName3 = QuickCountersUnitTest
+		SccLocalPath3 = QuickCountersUnitTest
+		SccProjectUniqueName4 = QuickCounterView\\QuickCounterView.csproj
+		SccProjectName4 = QuickCounterView
+		SccLocalPath4 = QuickCounterView
+		SccProjectUniqueName5 = WCFSupport\\QCFromWsdl\\QCFromWsdl.csproj
+		SccProjectTopLevelParentUniqueName5 = QuickCounters.net.sln
+		SccProjectName5 = WCFSupport/QCFromWsdl
+		SccLocalPath5 = WCFSupport\\QCFromWsdl
+		SccProjectUniqueName6 = WCFSupport\\QuickCounters.Wcf\\QuickCounters.Wcf.csproj
+		SccProjectTopLevelParentUniqueName6 = QuickCounters.net.sln
+		SccProjectName6 = WCFSupport/QuickCounters.Wcf
+		SccLocalPath6 = WCFSupport\\QuickCounters.Wcf
+		SccProjectUniqueName7 = WCFSupport\\QuickCounters.Wcf.UnitTest\\QuickCounters.Wcf.UnitTest.csproj
+		SccProjectTopLevelParentUniqueName7 = QuickCounters.net.sln
+		SccProjectName7 = WCFSupport/QuickCounters.Wcf.UnitTest
+		SccLocalPath7 = WCFSupport\\QuickCounters.Wcf.UnitTest
+		SccProjectUniqueName8 = BizTalkSupport\\QuickCounters.BizTalk\\QuickCounters.BizTalk.csproj
+		SccProjectTopLevelParentUniqueName8 = QuickCounters.net.sln
+		SccProjectName8 = BizTalkSupport/QuickCounters.BizTalk
+		SccLocalPath8 = BizTalkSupport\\QuickCounters.BizTalk
+		SccProjectUniqueName9 = BizTalkSupport\\BizTalkWithQuickCountersSample\\BizTalkWithQuickCountersSample.btproj
+		SccProjectTopLevelParentUniqueName9 = QuickCounters.net.sln
+		SccProjectName9 = BizTalkSupport/BizTalkWithQuickCountersSample
+		SccLocalPath9 = BizTalkSupport\\BizTalkWithQuickCountersSample
+		SccProjectUniqueName10 = Samples\\QCConsoleApp\\QCConsoleApp.csproj
+		SccProjectTopLevelParentUniqueName10 = QuickCounters.net.sln
+		SccProjectName10 = Samples/QCConsoleApp
+		SccLocalPath10 = Samples\\QCConsoleApp
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7865FB26-07F8-41E5-9A98-5B0BFB352828}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{7865FB26-07F8-41E5-9A98-5B0BFB352828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7865FB26-07F8-41E5-9A98-5B0BFB352828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7865FB26-07F8-41E5-9A98-5B0BFB352828}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7865FB26-07F8-41E5-9A98-5B0BFB352828}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7865FB26-07F8-41E5-9A98-5B0BFB352828}.Release|.NET.ActiveCfg = Release|Any CPU
+		{7865FB26-07F8-41E5-9A98-5B0BFB352828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7865FB26-07F8-41E5-9A98-5B0BFB352828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7865FB26-07F8-41E5-9A98-5B0BFB352828}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7865FB26-07F8-41E5-9A98-5B0BFB352828}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{4334343F-D0B4-44A9-87D9-D9D6AA350787}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{4334343F-D0B4-44A9-87D9-D9D6AA350787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4334343F-D0B4-44A9-87D9-D9D6AA350787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4334343F-D0B4-44A9-87D9-D9D6AA350787}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4334343F-D0B4-44A9-87D9-D9D6AA350787}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4334343F-D0B4-44A9-87D9-D9D6AA350787}.Release|.NET.ActiveCfg = Release|Any CPU
+		{4334343F-D0B4-44A9-87D9-D9D6AA350787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4334343F-D0B4-44A9-87D9-D9D6AA350787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4334343F-D0B4-44A9-87D9-D9D6AA350787}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{4334343F-D0B4-44A9-87D9-D9D6AA350787}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E207B2E0-A6B8-4D74-8574-40D099B2534B}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{E207B2E0-A6B8-4D74-8574-40D099B2534B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E207B2E0-A6B8-4D74-8574-40D099B2534B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E207B2E0-A6B8-4D74-8574-40D099B2534B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E207B2E0-A6B8-4D74-8574-40D099B2534B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E207B2E0-A6B8-4D74-8574-40D099B2534B}.Release|.NET.ActiveCfg = Release|Any CPU
+		{E207B2E0-A6B8-4D74-8574-40D099B2534B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E207B2E0-A6B8-4D74-8574-40D099B2534B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E207B2E0-A6B8-4D74-8574-40D099B2534B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E207B2E0-A6B8-4D74-8574-40D099B2534B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{6330E070-0A33-45A7-8D4A-ED3383C1A074}.Debug|.NET.ActiveCfg = Debug
+		{6330E070-0A33-45A7-8D4A-ED3383C1A074}.Debug|.NET.Build.0 = Debug
+		{6330E070-0A33-45A7-8D4A-ED3383C1A074}.Debug|Any CPU.ActiveCfg = Debug
+		{6330E070-0A33-45A7-8D4A-ED3383C1A074}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{6330E070-0A33-45A7-8D4A-ED3383C1A074}.Release|.NET.ActiveCfg = Release
+		{6330E070-0A33-45A7-8D4A-ED3383C1A074}.Release|.NET.Build.0 = Release
+		{6330E070-0A33-45A7-8D4A-ED3383C1A074}.Release|Any CPU.ActiveCfg = Release
+		{6330E070-0A33-45A7-8D4A-ED3383C1A074}.Release|Any CPU.Build.0 = Release
+		{6330E070-0A33-45A7-8D4A-ED3383C1A074}.Release|Mixed Platforms.ActiveCfg = Release
+		{6330E070-0A33-45A7-8D4A-ED3383C1A074}.Release|Mixed Platforms.Build.0 = Release
+		{EE693BD7-3C5E-4DD2-8533-08F7B3A086C4}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{EE693BD7-3C5E-4DD2-8533-08F7B3A086C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE693BD7-3C5E-4DD2-8533-08F7B3A086C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE693BD7-3C5E-4DD2-8533-08F7B3A086C4}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{EE693BD7-3C5E-4DD2-8533-08F7B3A086C4}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{EE693BD7-3C5E-4DD2-8533-08F7B3A086C4}.Release|.NET.ActiveCfg = Release|Any CPU
+		{EE693BD7-3C5E-4DD2-8533-08F7B3A086C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE693BD7-3C5E-4DD2-8533-08F7B3A086C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE693BD7-3C5E-4DD2-8533-08F7B3A086C4}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{EE693BD7-3C5E-4DD2-8533-08F7B3A086C4}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B1B0C9BA-A499-4638-9D2A-1E1F0AD28519}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{B1B0C9BA-A499-4638-9D2A-1E1F0AD28519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B0C9BA-A499-4638-9D2A-1E1F0AD28519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B0C9BA-A499-4638-9D2A-1E1F0AD28519}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B1B0C9BA-A499-4638-9D2A-1E1F0AD28519}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B1B0C9BA-A499-4638-9D2A-1E1F0AD28519}.Release|.NET.ActiveCfg = Release|Any CPU
+		{B1B0C9BA-A499-4638-9D2A-1E1F0AD28519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B0C9BA-A499-4638-9D2A-1E1F0AD28519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1B0C9BA-A499-4638-9D2A-1E1F0AD28519}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B1B0C9BA-A499-4638-9D2A-1E1F0AD28519}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{25CFC4BE-774A-4ABB-90E8-95D9345C1B79}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{25CFC4BE-774A-4ABB-90E8-95D9345C1B79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25CFC4BE-774A-4ABB-90E8-95D9345C1B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25CFC4BE-774A-4ABB-90E8-95D9345C1B79}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{25CFC4BE-774A-4ABB-90E8-95D9345C1B79}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{25CFC4BE-774A-4ABB-90E8-95D9345C1B79}.Release|.NET.ActiveCfg = Release|Any CPU
+		{25CFC4BE-774A-4ABB-90E8-95D9345C1B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25CFC4BE-774A-4ABB-90E8-95D9345C1B79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25CFC4BE-774A-4ABB-90E8-95D9345C1B79}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{25CFC4BE-774A-4ABB-90E8-95D9345C1B79}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{2AD1A115-2482-4192-8279-A0420FB67388}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{2AD1A115-2482-4192-8279-A0420FB67388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AD1A115-2482-4192-8279-A0420FB67388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AD1A115-2482-4192-8279-A0420FB67388}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2AD1A115-2482-4192-8279-A0420FB67388}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2AD1A115-2482-4192-8279-A0420FB67388}.Release|.NET.ActiveCfg = Release|Any CPU
+		{2AD1A115-2482-4192-8279-A0420FB67388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AD1A115-2482-4192-8279-A0420FB67388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AD1A115-2482-4192-8279-A0420FB67388}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2AD1A115-2482-4192-8279-A0420FB67388}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E4A96C6F-B66D-4101-BB9D-D4CC35A68B46}.Debug|.NET.ActiveCfg = Deployment|.NET
+		{E4A96C6F-B66D-4101-BB9D-D4CC35A68B46}.Debug|.NET.Build.0 = Deployment|.NET
+		{E4A96C6F-B66D-4101-BB9D-D4CC35A68B46}.Debug|.NET.Deploy.0 = Deployment|.NET
+		{E4A96C6F-B66D-4101-BB9D-D4CC35A68B46}.Debug|Any CPU.ActiveCfg = Development|.NET
+		{E4A96C6F-B66D-4101-BB9D-D4CC35A68B46}.Debug|Mixed Platforms.ActiveCfg = Development|.NET
+		{E4A96C6F-B66D-4101-BB9D-D4CC35A68B46}.Release|.NET.ActiveCfg = Deployment|.NET
+		{E4A96C6F-B66D-4101-BB9D-D4CC35A68B46}.Release|.NET.Build.0 = Deployment|.NET
+		{E4A96C6F-B66D-4101-BB9D-D4CC35A68B46}.Release|.NET.Deploy.0 = Deployment|.NET
+		{E4A96C6F-B66D-4101-BB9D-D4CC35A68B46}.Release|Any CPU.ActiveCfg = Deployment|.NET
+		{E4A96C6F-B66D-4101-BB9D-D4CC35A68B46}.Release|Any CPU.Build.0 = Deployment|.NET
+		{E4A96C6F-B66D-4101-BB9D-D4CC35A68B46}.Release|Mixed Platforms.ActiveCfg = Deployment|.NET
+		{2C5FDC2F-B431-42FA-A661-93BC02D945B0}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{2C5FDC2F-B431-42FA-A661-93BC02D945B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C5FDC2F-B431-42FA-A661-93BC02D945B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C5FDC2F-B431-42FA-A661-93BC02D945B0}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2C5FDC2F-B431-42FA-A661-93BC02D945B0}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2C5FDC2F-B431-42FA-A661-93BC02D945B0}.Release|.NET.ActiveCfg = Release|Any CPU
+		{2C5FDC2F-B431-42FA-A661-93BC02D945B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C5FDC2F-B431-42FA-A661-93BC02D945B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C5FDC2F-B431-42FA-A661-93BC02D945B0}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2C5FDC2F-B431-42FA-A661-93BC02D945B0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE693BD7-3C5E-4DD2-8533-08F7B3A086C4} = {4FB16BBD-4ED1-48DF-9122-73E91E518267}
+		{B1B0C9BA-A499-4638-9D2A-1E1F0AD28519} = {4FB16BBD-4ED1-48DF-9122-73E91E518267}
+		{25CFC4BE-774A-4ABB-90E8-95D9345C1B79} = {4FB16BBD-4ED1-48DF-9122-73E91E518267}
+		{2AD1A115-2482-4192-8279-A0420FB67388} = {6C4EDDD6-3E16-456D-B094-51607B8027D0}
+		{E4A96C6F-B66D-4101-BB9D-D4CC35A68B46} = {6C4EDDD6-3E16-456D-B094-51607B8027D0}
+		{2C5FDC2F-B431-42FA-A661-93BC02D945B0} = {29CD09CD-96AC-4291-8F4D-A9433EE4C02E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<InstrumentedApplication>
+	<Name>BizTalkWithQuickCounters</Name>
+	<Description>BizTalkWithQuickCounters</Description>
+	<Component>
+		<Name>QuickCounterDemo</Name>
+		<Description>QuickCounterDemo</Description>
+		<RequestTypes>
+			<RequestType>
+				<Name>demo</Name>
+				<Description>demo</Description>
+			</RequestType>
+		</RequestTypes>
+	</Component>
+	
+</InstrumentedApplication>

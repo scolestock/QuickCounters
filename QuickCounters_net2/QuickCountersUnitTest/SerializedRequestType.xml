@@ -1,0 +1,15 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:RequestType id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/QuickCounters/QuickCounters.net%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D401c7ea1618cbd56">
+<_componentName id="ref-3">QuickCountersUnitTest</_componentName>
+<_requestTypeName id="ref-4">Fake Work</_requestTypeName>
+<_resetCounterValuesOnAppDomainInit>true</_resetCounterValuesOnAppDomainInit>
+<_performanceCountStartValue>576246517302</_performanceCountStartValue>
+<_startTime xsi:type="xsd:dateTime">2006-05-12T11:19:23.1956416-05:00</_startTime>
+<_useHighResolutionTime>false</_useHighResolutionTime>
+<_openRequestCount>0</_openRequestCount>
+<_orchestrationId xsi:type="xsd:anyType" xsi:null="1"/>
+</a1:RequestType>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<InstrumentedApplication>
+   <Name>TestClientApp</Name>
+   <Description/>
+   <Component>
+      <Name>TestClient</Name>
+      <Description/>
+      <RequestTypes>
+         <RequestType>
+            <Name>Method1</Name>
+            <Description/>
+         </RequestType>
+         <RequestType>
+            <Name>Method2</Name>
+            <Description/>
+         </RequestType>
+      </RequestTypes>
+   </Component>
+</InstrumentedApplication>

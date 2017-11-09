@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project name="package.build" default="build">
+   <target name="build" depends="buildSourcePackage" />
+
+   <target name="buildSourcePackage">
+      <zip zipfile="QuickCountersSource.zip" includeemptydirs="true">
+         <fileset>
+            <include name="**\*.*" />
+            <exclude name="**\*.scc" />
+            <exclude name="**\*.suo" />
+            <exclude name="**\*.vssscc" />
+            <exclude name="**\*.vspscc" />
+            <exclude name="**\*.user" />
+            <exclude name="**\*.installlog" />
+            <exclude name="**\bin\**" />
+            <exclude name="**\obj\**" />
+            <exclude name="**\setup.exe" />
+            <exclude name="**\*.msi" />
+         </fileset>
+      </zip>
+   </target>
+</project>

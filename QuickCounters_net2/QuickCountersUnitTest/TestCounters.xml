@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<InstrumentedApplication>
+   <Name>QuickCountersUnitTest</Name>
+   <Description>QuickCountersUnitTest</Description>
+   <Component>
+      <Name>QuickCountersUnitTest</Name>
+      <Description>QuickCountersUnitTest counters</Description>
+      <RequestTypes>
+         <RequestType>
+            <Name>Fake Work</Name>
+            <Description>Measurements for how often we do fake work.</Description>
+         </RequestType>
+         <RequestType>
+            <Name>Illegitimate Work</Name>
+            <Description>Measurements for how often we do illegitmate work.</Description>
+         </RequestType>
+      </RequestTypes>
+   </Component>
+   <Component>
+      <Name>QuickCountersUnitTest2</Name>
+      <Description>QuickCountersUnitTest2 counters</Description>
+      <RequestTypes>
+         <RequestType>
+            <Name>Fake Work2</Name>
+            <Description>Measurements for how often we do fake work2.</Description>
+         </RequestType>
+      </RequestTypes>
+   </Component>
+</InstrumentedApplication>

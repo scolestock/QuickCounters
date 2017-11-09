@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<InstrumentedApplication>
+	<Name>QCConsoleApp</Name>
+	<Description></Description>
+	<Component>
+		<Name>QCConsoleAppComponent</Name>
+		<Description></Description>
+		<RequestTypes>
+			<RequestType>
+				<Name>DoWork</Name>
+				<Description></Description>
+			</RequestType>
+		</RequestTypes>
+	</Component>
+	
+</InstrumentedApplication>
